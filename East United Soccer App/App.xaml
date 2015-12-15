@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="East_United_Soccer_App.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:East_United_Soccer_App"
+    RequestedTheme="Light">
+
+</Application>

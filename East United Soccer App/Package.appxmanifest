@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="5427MatthewLallyDeveloper.EastUnitedFCApp" Publisher="CN=25C875A9-DC40-4C22-9B9E-79B3888BA34F" Version="1.1.3.0" />
+  <mp:PhoneIdentity PhoneProductId="ea3cd373-13d9-47ed-ac8d-6370fde3f868" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>East United FC App</DisplayName>
+    <PublisherDisplayName>Matthew Lally Developer</PublisherDisplayName>
+    <Logo>Assets\50x50.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="East_United_Soccer_App.App">
+      <uap:VisualElements DisplayName="East United FC App" Square150x150Logo="Assets\150x150.png" Square44x44Logo="Assets/44x44.png" Description="An application for East United a junior soccer club based in Castlepark,Galway,Ireland that provides information on fixtures, a league table , information about the club, an image gallery and how to contact the club." BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\310x150.png" Square310x310Logo="Assets/310x310.png" Square71x71Logo="Assets/71x71.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
